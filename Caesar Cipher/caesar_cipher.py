@@ -12,7 +12,7 @@ def caeser(cipher_direction, start_text, shift_amount):
         else:
             position = alphabet.index(letter)
             new_position = position + shift_amount
-            if new_position >= len(alphabet) or new_position < 0:
+            if (new_position >= len(alphabet)) or (new_position < 0):
                 new_position %= 26
             end_text += alphabet[new_position]
     print(f"Here's the {cipher_direction}d result: {end_text}")
