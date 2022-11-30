@@ -8,6 +8,7 @@ print("Welcome to the secret auction program.")
 def maximum_bid(bids):
     winner = ""
     max_bid = 0
+    # bids = {"Jane" : 150, "Paul" : 250, "Charles" : 180}
     for bidder in bids:
         if max_bid < bids[bidder]:
             winner = bidder
