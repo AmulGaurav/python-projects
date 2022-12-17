@@ -1,4 +1,4 @@
-import cipher_art
+from art import logo
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
@@ -16,6 +16,8 @@ def caeser(cipher_direction, start_text, shift_amount):
                 new_position %= 26
             end_text += alphabet[new_position]
     print(f"Here's the {cipher_direction}d result: {end_text}")
+
+print(logo)
 
 flag = True
 

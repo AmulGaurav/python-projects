@@ -1,6 +1,6 @@
 import os
 import random
-from blackjack_art import logo
+from art import logo
 
 def deal_card(cards):
     return random.choice(cards)

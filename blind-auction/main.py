@@ -1,7 +1,7 @@
-import auction_logo
+from art import logo
 import os
 
-print(auction_logo.logo)
+print(logo)
 
 print("Welcome to the secret auction program.")
 
