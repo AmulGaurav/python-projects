@@ -1,8 +1,5 @@
 import turtle
 
-tim = turtle.Turtle()
-tim.width(3)                #increases pen width of turtle
-
 def move_forwards():
     tim.forward(10)
 
@@ -19,6 +16,8 @@ def clear_screen():
     screen.reset()
     tim.width(3)
 
+tim = turtle.Turtle()
+tim.width(3)                #increases pen width of turtle
 
 screen = turtle.Screen()
 
