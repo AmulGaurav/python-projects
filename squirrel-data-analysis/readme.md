@@ -1,0 +1,2 @@
+For color data of squirrels, I have used data from 2018 Central Park Squirrel Census - Squirrel Data
+You can also visit the website here for any reference https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw
