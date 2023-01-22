@@ -17,6 +17,6 @@ color_dict = {
 
 new_data = pandas.DataFrame(color_dict)
 
-new_data.to_csv("squirrel\\squirrel_count.csv")
+new_data.to_csv("squirrel-data-analysis\\squirrel_count.csv")
 
 print(new_data)
