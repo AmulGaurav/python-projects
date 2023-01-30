@@ -1,6 +1,6 @@
 import pandas
 
-data = pandas.read_csv("C:\\Users\\admin\Documents\\python-projects\\2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
+data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
 
 all_color = data["Primary Fur Color"]
 
@@ -17,6 +17,4 @@ color_dict = {
 
 new_data = pandas.DataFrame(color_dict)
 
-new_data.to_csv("squirrel-data-analysis\\squirrel_count.csv")
-
-print(new_data)
+new_data.to_csv("squirrel_count.csv")
